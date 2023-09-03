@@ -1,4 +1,4 @@
-# Stability-of-Different-types-of-GANs
+# Stability of Different types of GANs
 In this assignment, we implemented three types of Generative Adversarial Networks (GAN), including Deep Convolutional GAN (DC-GAN), Auxiliary Conditional GAN (AC-GAN) and Wasserstein GAN (WGAN), on a dataset containing binary finger images. In terms of DC-GAN, we utilized different preprocessing techniques, such as smoothing labels and adding noise, to increase the stability of the model and thus good quality images generated. As can be seen below, the original DC-GAN have a divergent trend in its loss function in which loss of generator is increasing, while by using these two techniques the convergence is improved, especially when smooth labels are used.
 
 ![DCGAN](https://github.com/ErshadHasanpour/Stability-of-Different-types-of-GANs/assets/96794427/98bd30b8-acba-4573-ab57-c6cf05d415d2)
